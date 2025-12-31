@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+}
+
+.logo {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 80px;
+}
+
+.logo h1 {
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 16px;
+    font-size: 21px;
+}
+
+.navbar button {
+    border: none;
+    border-radius: 6px;
+    font-size: 21px;
+    color: white;
+    background-color: #0976a7;
+    padding: 9px 30px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    width: 40%;
+    padding: 85px 24px;
+    color: white;
+    background-color: #0976a7;
+    font-size: 24px;
+}
+
+.sidebar > p {
+    margin: 45px 0;
+    font-size: 30px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+}
+
+.quote img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.quote div {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.position {
+    font-size: 12px;
+    color: #a4dbf5;
+}
+
+.signin {
+    width: 60%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.signin .create {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.signin .create a {
+    color: #e90606;
+}
+
+.signin .google {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 18px;
+    color: #999999;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.signin .google img, .signin .social button img  {
+    width: 24px;
+    padding: 0 30px;
+}
+
+.signin .social {
+    width: 50%;
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin .social button {
+    width: 49.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 12px 10px;
+    font-size: 18px;
+    color: #999999;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.signin .social button img {
+    width: 24px;
+    padding: 5px;
+}
+
+.or {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+}
+
+.or div {
+    width: 47%;
+    height: 0;
+    border: 1px solid #999;
+}
+
+
+.form {
+    width: 50%;
+    margin: 15px 0;
+}
+
+form input {
+    width: 95%;
+    padding: 9px 12px;
+    margin: 6px 0;
+    font-size: 18px;
+    background-color: #eff1f3;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+form a {
+    display: flex;
+    justify-content: end;
+    /* width: 100%; */
+    color: #e90606;
+    font-size: 12px;
+}
+
+form button {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #e90606;
+    padding: 12px;
+    margin: 24px 0 6px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form .faq, .form .visit {
+    text-align: center;
+    padding: 12px 0 18px 0;
+}
+
+.form .unsub {
+    padding: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.form a {
+    color:#e90606;
+}
